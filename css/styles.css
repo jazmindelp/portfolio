@@ -18,10 +18,10 @@ h2 {
   letter-spacing: 1px;
 }
 h1 {
-  font-size: 60px !important;
+  font-size: 55px !important;
 }
 h2 {
-  font-size: 34px !important;
+  font-size: 30px !important;
 }
 h3 {
   font-size: 30px !important;
@@ -47,6 +47,7 @@ header {
   color: #fff !important;
   font-weight: 500;
   transition: all 250ms ease-in-out;
+  font-size: 18px !important;
 }
 .branding-btn:hover {
   cursor: pointer;
