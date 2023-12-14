@@ -155,7 +155,7 @@ ul {
 li {
   padding: 30px 0;
   display: flex;
-  align-items: flex-end;
+  align-items: baseline;
 }
 i {
   font-size: 34px;
@@ -163,4 +163,18 @@ i {
 }
 h5 {
   margin: 0;
+  font-size: 22px;
+}
+
+@media (max-width: 575px) {
+  h5 {
+    font-size: 14px !important;
+  }
+  i {
+    font-size: 24px;
+    padding-right: 15px;
+  }
+  ul {
+    padding: 0 !important;
+  }
 }
