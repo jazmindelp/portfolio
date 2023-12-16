@@ -99,9 +99,6 @@ header {
 }
 
 @media (max-width: 415px) {
-  body {
-    padding: 0 20px;
-  }
   h1 {
     width: 75%;
     margin: auto;
@@ -134,14 +131,19 @@ header {
 .custom-card {
   background-color: rgb(249, 247, 254);
   width: fit-content;
-  min-height: 420px !important;
+
   border-radius: 20px;
   padding: 15px 10px;
 }
 
 @media (max-width: 1070px) {
   .custom-card img {
-    max-width: 400px !important;
+    width: 80% !important;
+    max-height: fit-content !important;
+    padding: 0;
+  }
+  .content-container {
+    padding-inline: 20px;
   }
 }
 .fixed-img {
@@ -210,6 +212,15 @@ h5 {
 }
 .flowers {
   max-height: 90px;
+}
+
+@media (max-width: 996px) {
+  .flowers {
+    height: 50px !important;
+  }
+  .flowers-container {
+    display: none;
+  }
 }
 
 footer {
