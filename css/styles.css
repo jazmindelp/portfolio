@@ -139,6 +139,11 @@ header {
   padding: 15px 10px;
 }
 
+@media (max-width: 1070px) {
+  .custom-card img {
+    max-width: 400px !important;
+  }
+}
 .fixed-img {
   max-height: 450px !important;
 }
