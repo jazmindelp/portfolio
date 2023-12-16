@@ -9,7 +9,6 @@
 body {
   background-color: var(--bg-color) !important;
   font-family: var(--default-font-family);
-  padding: 0 50px;
 }
 
 h1,
@@ -43,7 +42,7 @@ img {
 }
 
 header {
-  padding: 180px 0;
+  padding: 150px 50px;
 }
 .branding-btn {
   background-color: var(--primary-color) !important;
@@ -113,7 +112,7 @@ header {
 }
 
 .content-container {
-  padding: 100px 0px;
+  padding: 70px 50px;
 }
 
 .content {
@@ -177,4 +176,33 @@ h5 {
   ul {
     padding: 0 !important;
   }
+}
+
+.navbar {
+  background-color: var(--primary-color) !important;
+}
+
+.navbar ul {
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.navbar li {
+  min-height: 60px;
+}
+
+.active {
+  color: var(--primary-color) !important;
+  font-weight: 500 !important;
+}
+
+.nav-link:hover {
+  color: var(--primary-color) !important;
+}
+.flowers-container {
+  background-color: #fff;
+  border-radius: 100%;
+}
+.flowers {
+  max-height: 90px;
 }
